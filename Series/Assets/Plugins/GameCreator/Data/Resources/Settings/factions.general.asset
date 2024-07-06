@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d5b94a9f4e4a6ba32e4aba248a9fcd, type: 3}
+  m_Name: factions.general
+  m_EditorClassIdentifier: 
+  m_Repository:
+    rid: 8332583549847208463
+  references:
+    version: 2
+    RefIds:
+    - rid: 8332583549847208463
+      type: {class: FactionsRepository, ns: NinjutsuGames.Runtime.Factions, asm: NinjutsuGames.Runtime.Factions}
+      data:
+        m_Stances:
+          m_Stances:
+          - rid: 8332583549847208464
+          - rid: 8332583549847208465
+          - rid: 8332583549847208466
+        m_Factions:
+          m_Factions: []
+    - rid: 8332583549847208464
+      type: {class: FactionStance, ns: NinjutsuGames.Runtime.Factions, asm: NinjutsuGames.Runtime.Factions}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Key:
+          m_String: Hostile
+        m_Color:
+          m_Property:
+            rid: 8332583549847208467
+        m_PointsRequired:
+          m_Property:
+            rid: 8332583549847208468
+    - rid: 8332583549847208465
+      type: {class: FactionStance, ns: NinjutsuGames.Runtime.Factions, asm: NinjutsuGames.Runtime.Factions}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Key:
+          m_String: Neutral
+        m_Color:
+          m_Property:
+            rid: 8332583549847208469
+        m_PointsRequired:
+          m_Property:
+            rid: 8332583549847208470
+    - rid: 8332583549847208466
+      type: {class: FactionStance, ns: NinjutsuGames.Runtime.Factions, asm: NinjutsuGames.Runtime.Factions}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Key:
+          m_String: Friendly
+        m_Color:
+          m_Property:
+            rid: 8332583549847208471
+        m_PointsRequired:
+          m_Property:
+            rid: 8332583549847208472
+    - rid: 8332583549847208467
+      type: {class: GetColorColorsRed, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8332583549847208468
+      type: {class: GetDecimalConstantZero, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8332583549847208469
+      type: {class: GetColorColorsYellow, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8332583549847208470
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 50
+    - rid: 8332583549847208471
+      type: {class: GetColorColorsGreen, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8332583549847208472
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 100

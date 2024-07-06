@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da354c80beb46ca8db111f47d23382d, type: 3}
+  m_Name: core.general
+  m_EditorClassIdentifier: 
+  m_Repository:
+    rid: 1963315504267133022
+  references:
+    version: 2
+    RefIds:
+    - rid: 1963315504267133022
+      type: {class: GeneralRepository, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Save:
+          m_System:
+            rid: 1963315845000331662
+          m_Load: 2
+          m_Scene:
+            m_Property:
+              rid: 1963315845000331663
+        m_Audio:
+          soundEffectsMixer: {fileID: 0}
+          ambientMixer: {fileID: 0}
+          musicMixer: {fileID: 0}
+          speechMixer: {fileID: 0}
+          userInterfaceMixer: {fileID: 0}
+    - rid: 1963315845000331662
+      type: {class: LootLockerSaveGame, ns: NinjutsuGames.LootLocker.Runtime, asm: NinjutsuGames.LootLocker.Runtime}
+      data: 
+    - rid: 1963315845000331663
+      type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Scene:
+          m_Scene: {fileID: 102900000, guid: e877f0ee6158b4330a041ac15d650236, type: 3}
+          m_SceneName: Hub
+          m_SceneIndex: 2
