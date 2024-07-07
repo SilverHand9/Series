@@ -10,11 +10,9 @@ AnimatorOverrideController:
   m_Controller: {fileID: 9100000, guid: ecba992c2f1394f9eb808f518164f8ea, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 134f748d7ce0049f1b4827c6a710697e, type: 2}
-    m_OverrideClip: {fileID: -203655887218126122, guid: 76b3655e96df64d15a5d20387823f396,
-      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 76b3655e96df64d15a5d20387823f396, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 4ee53f6c9d28a4e2ab78924219e1314c, type: 2}
-    m_OverrideClip: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93,
-      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 06adbf3a4686a4901884ac6bccb86be7, type: 2}
     m_OverrideClip: {fileID: 0}
   - m_OriginalClip: {fileID: 7400000, guid: 505019e3f98744942a48950d518a4916, type: 2}
@@ -30,8 +28,7 @@ AnimatorOverrideController:
   - m_OriginalClip: {fileID: 7400000, guid: 1fd4b2177056a497484fe19e3387f4c9, type: 2}
     m_OverrideClip: {fileID: 0}
   - m_OriginalClip: {fileID: 7400000, guid: dc7da93a78c584cd39dba4ee11cfd093, type: 2}
-    m_OverrideClip: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93,
-      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93, type: 3}
   - m_OriginalClip: {fileID: 7400000, guid: 1ba41551114374c84b2921b006310066, type: 2}
     m_OverrideClip: {fileID: 0}
   - m_OriginalClip: {fileID: 7400000, guid: 3530b8dfbd9c94f9a9621dccd3deca47, type: 2}
@@ -185,10 +182,8 @@ MonoBehaviour:
   m_Controller: {fileID: -2683789934764434665}
   m_AirborneMode: 0
   m_Stand16Points:
-    m_Idle: {fileID: -203655887218126122, guid: 76b3655e96df64d15a5d20387823f396,
-      type: 3}
-    m_ForwardFast: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93,
-      type: 3}
+    m_Idle: {fileID: -203655887218126122, guid: 76b3655e96df64d15a5d20387823f396, type: 3}
+    m_ForwardFast: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93, type: 3}
     m_BackwardFast: {fileID: 0}
     m_RightFast: {fileID: 0}
     m_LeftFast: {fileID: 0}
@@ -196,8 +191,7 @@ MonoBehaviour:
     m_ForwardLeftFast: {fileID: 0}
     m_BackwardRightFast: {fileID: 0}
     m_BackwardLeftFast: {fileID: 0}
-    m_ForwardSlow: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93,
-      type: 3}
+    m_ForwardSlow: {fileID: -203655887218126122, guid: 5c70307d6cb6d4f1088645b4ffdc7c93, type: 3}
     m_BackwardSlow: {fileID: 0}
     m_RightSlow: {fileID: 0}
     m_LeftSlow: {fileID: 0}
