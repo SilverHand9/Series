@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462653968937910290].m_Dash.m_DashInAir
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
