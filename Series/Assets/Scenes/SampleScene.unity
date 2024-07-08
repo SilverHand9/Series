@@ -352,7 +352,7 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -593,10 +593,6 @@ PrefabInstance:
     - target: {fileID: 8780233934207961120, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462653968937910290].m_Dash.m_DashInAir
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

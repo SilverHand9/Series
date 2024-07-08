@@ -3249,8 +3249,8 @@ MonoBehaviour:
           m_JumpCooldown: 0.5
         m_Dash:
           m_InSuccession: 0
-          m_DashInAir: 0
-          m_Cooldown: 1
+          m_DashInAir: 1
+          m_Cooldown: 0.1
     - rid: 4462653968937910291
       type: {class: UnitDriverController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data:
