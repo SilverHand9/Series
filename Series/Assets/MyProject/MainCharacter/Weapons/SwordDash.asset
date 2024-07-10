@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Mask: {fileID: 0}
   m_Motion: 2
   m_SyncReaction: {fileID: 0}
-  m_Gravity: 0
+  m_Gravity: 1
   m_TransitionIn: 0.2
   m_TransitionOut: 0.25
   m_MeleeSequence:
@@ -251,7 +251,7 @@ MonoBehaviour:
     - rid: 4340017104564519072
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1.2
+        m_Value: 0.7
     - rid: 4340017104564519081
       type: {class: InstructionCameraShakeBurst, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:

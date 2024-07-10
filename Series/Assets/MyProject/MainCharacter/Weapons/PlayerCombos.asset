@@ -20,9 +20,9 @@ MonoBehaviour:
     - rid: 4340017089037992684
       type: {class: ComboTree, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Dirty: 98783
+        m_Dirty: 98006
         m_Data:
-          m_Keys: 3ff22c18a05ec46270d7694935434e1de238b2be8506e2fe6c649592bdfbc8faa09a048823feda5e4828aafdb731b781827e297b4d9a9d554c803dbe
+          m_Keys: 3ff22c18a05ec46270d7694935434e1de238b2be8506e2fe6c649592bdfbc8faa09a048823feda5e4828aafdb731b781827e297b4d9a9d554c803dbe336dace4
           m_Values:
           - m_Id: 405598783
             m_Value:
@@ -69,8 +69,11 @@ MonoBehaviour:
           - m_Id: -1103265716
             m_Value:
               rid: 4462654033162666769
+          - m_Id: -458461901
+            m_Value:
+              rid: 4462654048598229156
         m_Nodes:
-          m_Keys: 3ff22c18a05ec46270d7694935434e1de238b2be8506e2fe6c649592bdfbc8faa09a048823feda5e4828aafdb731b781827e297b4d9a9d554c803dbe
+          m_Keys: 3ff22c18a05ec46270d7694935434e1de238b2be8506e2fe6c649592bdfbc8faa09a048823feda5e4828aafdb731b781827e297b4d9a9d554c803dbe336dace4
           m_Values:
           - m_Id: 405598783
             m_Parent: -1
@@ -117,7 +120,10 @@ MonoBehaviour:
           - m_Id: -1103265716
             m_Parent: 1436392013
             m_Children: 
-        m_Roots: 70d7694935434e1de238b2be8506e2fe6c649592bdfbc8faa09a0488827e297b3ff22c184d9a9d55
+          - m_Id: -458461901
+            m_Parent: -1
+            m_Children: 
+        m_Roots: 70d7694935434e1de238b2be8506e2fe6c649592bdfbc8faa09a0488827e297b336dace43ff22c184d9a9d55
     - rid: 4340017089037992685
       type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
@@ -674,9 +680,9 @@ MonoBehaviour:
         m_Conditions:
           m_Conditions:
             m_Conditions:
-            - rid: 4462654033162666597
+            - rid: 4462654048598229416
             - rid: 4462654033162666547
-        m_Skill: {fileID: 11400000, guid: 88c8120102a4e49a4bd0ea5c9b1b70e9, type: 2}
+        m_Skill: {fileID: 11400000, guid: b23678b4dcc5f1c4dbefb3af08d0132e, type: 2}
     - rid: 4340017105353310360
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -687,18 +693,6 @@ MonoBehaviour:
         m_IsEnabled: 1
         m_Sign: 1
         m_Button: 0
-    - rid: 4462654033162666597
-      type: {class: ConditionCharacterIsAirborne, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Sign: 1
-        m_Character:
-          m_Property:
-            rid: 4462654033162666598
-    - rid: 4462654033162666598
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 4462654033162666697
       type: {class: ConditionCharacterIsGrounded, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
@@ -789,5 +783,51 @@ MonoBehaviour:
           m_Property:
             rid: 4462654033162666772
     - rid: 4462654033162666772
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654048598229156
+      type: {class: ComboItem, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
+      data:
+        m_IsDisabled: 0
+        m_Key: 2
+        m_Mode: 0
+        m_When: 0
+        m_AutoRelease: 0
+        m_Timeout:
+          m_Property:
+            rid: 4462654048598229157
+        m_HasDelay:
+          m_IsEnabled: 0
+          m_Value: 0.5
+        m_Conditions:
+          m_Conditions:
+            m_Conditions:
+            - rid: 4462654048598229418
+        m_Skill: {fileID: 11400000, guid: b23678b4dcc5f1c4dbefb3af08d0132e, type: 2}
+    - rid: 4462654048598229157
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654048598229416
+      type: {class: ConditionCharacterIsGrounded, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Character:
+          m_Property:
+            rid: 4462654048598229417
+    - rid: 4462654048598229417
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654048598229418
+      type: {class: ConditionCharacterIsGrounded, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Character:
+          m_Property:
+            rid: 4462654048598229419
+    - rid: 4462654048598229419
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 

@@ -437,58 +437,6 @@ MonoBehaviour:
     - rid: 4462653968937910307
       type: {class: CameraClipNone, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
       data: 
---- !u!1 &1988331631 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8780233934207961120, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-  m_PrefabInstance: {fileID: 5357083039632793543}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1988331635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988331631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Instructions:
-    m_Instructions:
-    - rid: 4462654033162666052
-  m_TriggerEvent:
-    rid: 4462654033162666051
-  references:
-    version: 2
-    RefIds:
-    - rid: 4462654033162666051
-      type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654033162666052
-      type: {class: InstructionMeleeEquipWeapon, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Character:
-          m_Property:
-            rid: 4462654033162666053
-        m_Weapon:
-          m_Property:
-            rid: 4462654033162666054
-        m_Model:
-          m_Property:
-            rid: 4462654033162666055
-    - rid: 4462654033162666053
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654033162666054
-      type: {class: GetWeaponMeleeInstance, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
-      data:
-        m_Weapon: {fileID: 11400000, guid: bd2adfaa992728d4d8ff7d34fd1c24df, type: 2}
-    - rid: 4462654033162666055
-      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
 --- !u!1 &2126494831
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,10 +597,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8780233934207961120, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1988331635}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
