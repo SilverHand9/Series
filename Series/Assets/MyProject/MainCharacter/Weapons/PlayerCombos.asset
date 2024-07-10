@@ -670,10 +670,10 @@ MonoBehaviour:
         m_Key: 2
         m_Mode: 0
         m_When: 0
-        m_AutoRelease: 0
+        m_AutoRelease: 1
         m_Timeout:
           m_Property:
-            rid: 4340017105353310360
+            rid: 4462654059045716039
         m_HasDelay:
           m_IsEnabled: 0
           m_Value: 0.5
@@ -683,14 +683,11 @@ MonoBehaviour:
             - rid: 4462654048598229416
             - rid: 4462654033162666547
         m_Skill: {fileID: 11400000, guid: b23678b4dcc5f1c4dbefb3af08d0132e, type: 2}
-    - rid: 4340017105353310360
-      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 4462654033162666547
       type: {class: ConditionInputMousePress, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 1
+        m_IsEnabled: 0
         m_Sign: 1
         m_Button: 0
     - rid: 4462654033162666697
@@ -830,4 +827,7 @@ MonoBehaviour:
             rid: 4462654048598229419
     - rid: 4462654048598229419
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654059045716039
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
