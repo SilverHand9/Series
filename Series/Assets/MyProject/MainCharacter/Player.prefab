@@ -3215,6 +3215,7 @@ GameObject:
   - component: {fileID: 6804342155949614606}
   - component: {fileID: 8915860188603003397}
   - component: {fileID: 4751053275635800109}
+  - component: {fileID: 558772840914152634}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3420,22 +3421,61 @@ MonoBehaviour:
       type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Source:
-        - rid: 4462654059045716561
-    - rid: 4462654059045716561
+        - rid: 4462654070903013449
+    - rid: 4462654070903013449
       type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Value:
-          rid: 4462654059045716562
+          rid: 4462654070903013450
         m_Name:
           m_String: Light
-    - rid: 4462654059045716562
+    - rid: 4462654070903013450
       type: {class: ValueGameObject, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Value: {fileID: 5446495751723017488}
+--- !u!114 &558772840914152634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8780233934207961120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c924eacff884626a5aa4c90cf311c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Class: {fileID: 11400000, guid: a5dbba95d3fa9494698f3a294ed0c6d1, type: 2}
+  m_OverrideAttributes:
+    m_Keys:
+    - m_String: hp
+    - m_String: stamina
+    m_Values:
+    - m_IsExpanded: 0
+      m_ChangeStartPercent:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeStartPercent:
+        m_IsEnabled: 0
+        m_Value: 1
+  m_OverrideStats:
+    m_Keys:
+    - m_String: max_hp
+    - m_String: max_stamina
+    m_Values:
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
+    - m_IsExpanded: 0
+      m_ChangeBase:
+        m_IsEnabled: 0
+        m_Value: 1
 --- !u!1 &8895623961146768658
 GameObject:
   m_ObjectHideFlags: 0

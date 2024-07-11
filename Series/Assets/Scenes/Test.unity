@@ -243,7 +243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &666557200
 Light:
   m_ObjectHideFlags: 0
@@ -321,50 +321,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1819248704 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8780233934207961120, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-  m_PrefabInstance: {fileID: 2001736653}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1819248708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819248704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c924eacff884626a5aa4c90cf311c23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Class: {fileID: 11400000, guid: a5dbba95d3fa9494698f3a294ed0c6d1, type: 2}
-  m_OverrideAttributes:
-    m_Keys:
-    - m_String: hp
-    - m_String: stamina
-    m_Values:
-    - m_IsExpanded: 0
-      m_ChangeStartPercent:
-        m_IsEnabled: 0
-        m_Value: 1
-    - m_IsExpanded: 0
-      m_ChangeStartPercent:
-        m_IsEnabled: 0
-        m_Value: 1
-  m_OverrideStats:
-    m_Keys:
-    - m_String: max_hp
-    - m_String: max_stamina
-    m_Values:
-    - m_IsExpanded: 0
-      m_ChangeBase:
-        m_IsEnabled: 0
-        m_Value: 1
-    - m_IsExpanded: 0
-      m_ChangeBase:
-        m_IsEnabled: 0
-        m_Value: 1
 --- !u!1 &1909154973
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +332,7 @@ GameObject:
   - component: {fileID: 1909154976}
   - component: {fileID: 1909154975}
   - component: {fileID: 1909154974}
+  - component: {fileID: 1909154977}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -457,6 +414,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909154977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909154973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55db089f35f4457a8ff1981374b2de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsMainShot: 1
+  m_TimeMode:
+    m_UpdateTime: 0
+  m_Clipping: 0
+  m_ShotType:
+    rid: 4462654071428087968
+  references:
+    version: 2
+    RefIds:
+    - rid: 4462654071428087968
+      type: {class: ShotTypeFollow, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+      data:
+        m_ShotSystemViewport:
+          m_Projection:
+            m_IsEnabled: 0
+            m_Value: 0
+          m_FieldOfView:
+            m_IsEnabled: 0
+            m_Value: 60
+          m_OrthographicSize:
+            m_IsEnabled: 0
+            m_Value: 5
+          m_ClipPlaneNear:
+            m_IsEnabled: 0
+            m_Value: 0.3
+          m_ClipPlaneFar:
+            m_IsEnabled: 0
+            m_Value: 1000
+        m_ShotSystemLook:
+          m_IsActive: 1
+          m_LookTarget:
+            m_Property:
+              rid: 4462654071428087969
+          m_LookOffset:
+            m_Property:
+              rid: 4462654071428087973
+        m_ShotSystemFollow:
+          m_Follow:
+            m_Property:
+              rid: 4462654071428087971
+          m_Distance:
+            m_Property:
+              rid: 4462654071428087972
+    - rid: 4462654071428087969
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654071428087971
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654071428087972
+      type: {class: GetDirectionVector, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Direction: {x: 0, y: 1, z: -9}
+    - rid: 4462654071428087973
+      type: {class: GetDirectionVector, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Direction: {x: 0, y: 3, z: 11}
 --- !u!1001 &2001736653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -466,53 +492,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: stateMachineAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: b3e0d1bd666c36a47baf991dc29d5027, type: 2}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013449]
-      value: GameCreator.Runtime.Core GameCreator.Runtime.Variables.NameVariable
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013450]
-      value: GameCreator.Runtime.Core GameCreator.Runtime.Variables.ValueGameObject
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013449].m_Value
-      value: 4462654070903013450
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       propertyPath: managedReferences[4462654070903013450].m_Value
       value: 
-      objectReference: {fileID: 2029448278}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013449].m_IsEnabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013450].m_IsEnabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013449].m_Breakpoint
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013450].m_Breakpoint
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462654070903013449].m_Name.m_String
-      value: Light
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462653990378930177].m_Source.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4751053275635800109, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      propertyPath: managedReferences[4462653990378930177].m_Source.Array.data[0]
-      value: 4462654070903013449
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 666557199}
     - target: {fileID: 6804342155949614606, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.69
@@ -560,16 +542,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8780233934207961120, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1819248708}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
---- !u!1 &2029448278 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5446495751723017488, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
-  m_PrefabInstance: {fileID: 2001736653}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &80496964987030897
 GameObject:
   m_ObjectHideFlags: 0
