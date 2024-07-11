@@ -316,7 +316,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 186, y: -83, z: 0}
+  position: {x: 245.66667, y: -151.66667, z: 0}
   scale: {x: 0.49717674, y: 0.49717674, z: 1}
   references:
     version: 2
@@ -1389,8 +1389,8 @@ MonoBehaviour:
         computeOrder: 32
         position:
           serializedVersion: 2
-          x: 953.33325
-          y: 139.33333
+          x: 953.3333
+          y: 139.33331
           width: 110.66669
           height: 54
         expanded: 0
@@ -2123,7 +2123,7 @@ MonoBehaviour:
       type: {class: ConditionMathCompareDecimals, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 1
+        m_IsEnabled: 0
         m_Sign: 1
         m_Value:
           m_Property:
@@ -2202,7 +2202,7 @@ MonoBehaviour:
       type: {class: InstructionArithmeticSetNumber, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 1
+        m_IsEnabled: 0
         m_Set:
           m_Property:
             rid: 4462654069692433185
@@ -2226,7 +2226,7 @@ MonoBehaviour:
       type: {class: InstructionArithmeticSetNumber, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 1
+        m_IsEnabled: 0
         m_Set:
           m_Property:
             rid: 4462654069692433191
