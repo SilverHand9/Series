@@ -316,7 +316,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 257, y: -103.333336, z: 0}
+  position: {x: 222, y: -69, z: 0}
   scale: {x: 0.49717674, y: 0.49717674, z: 1}
   references:
     version: 2
@@ -2260,7 +2260,7 @@ MonoBehaviour:
         nodeLock: 0
         enabledForExecution: 1
         triggerEvent:
-          rid: 4462654071428088011
+          rid: 4462654073166627147
     - rid: 4462654069692433303
       type: {class: InstructionStateMachineDisableNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
       data:
@@ -2372,9 +2372,6 @@ MonoBehaviour:
       type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
       data:
         m_Attribute: {fileID: 11400000, guid: 71c2ce42a99fd9546b16e1da42b0c427, type: 2}
-    - rid: 4462654071428088011
-      type: {class: EventOnUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 4462654071428088039
       type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
       data:
@@ -2406,4 +2403,7 @@ MonoBehaviour:
         m_Value: 1
     - rid: 4462654073166627125
       type: {class: GetDecimalTimeUnscaledDeltaTime, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654073166627147
+      type: {class: EventOnFixedUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data: 
