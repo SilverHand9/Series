@@ -15,7 +15,7 @@ MonoBehaviour:
   m_ID:
     m_String: max_stamina
   m_Data:
-    m_Base: 1000
+    m_Base: 500
     m_Formula: {fileID: 0}
   m_Info:
     m_Name:
