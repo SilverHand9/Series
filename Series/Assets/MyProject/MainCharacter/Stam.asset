@@ -9,44 +9,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c4be981628d4fcd80364b5052329739, type: 3}
-  m_Name: Max_HP
+  m_Script: {fileID: 11500000, guid: d16e753d00bf481a94334461ae6f3755, type: 3}
+  m_Name: Stam
   m_EditorClassIdentifier: 
   m_ID:
-    m_String: max_hp
+    m_String: stamina
   m_Data:
-    m_Base: 100
-    m_Formula: {fileID: 0}
+    m_MinValue: 0
+    m_MaxValue: {fileID: 11400000, guid: 64d1fc93431265b49b79b405fc6cdfe4, type: 2}
+    m_StartPercent: 1
   m_Info:
     m_Name:
       m_Property:
-        rid: 5178594379753324596
+        rid: 5178594379753324593
     m_Acronym:
       m_Property:
-        rid: 5178594379753324597
+        rid: 5178594379753324594
     m_Description:
       m_Property:
-        rid: 5178594379753324598
+        rid: 5178594379753324595
     m_Icon:
       m_Property:
-        rid: 3592961491000623143
-    m_Color: {r: 0.93333334, g: 0.3137255, b: 0.3254902, a: 1}
+        rid: 3592961491000623148
+    m_Color: {r: 0.93333334, g: 0.74985933, b: 0.31372553, a: 1}
   references:
     version: 2
     RefIds:
-    - rid: 3592961491000623143
+    - rid: 3592961491000623148
       type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Sprite: {fileID: 21300000, guid: 4fec0f548deab494aad2716ce3efc057, type: 3}
-    - rid: 5178594379753324596
+        m_Sprite: {fileID: 21300000, guid: 0347232ecf6764b51addbb14eb0c9604, type: 3}
+    - rid: 5178594379753324593
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Vitality
-    - rid: 5178594379753324597
+        m_Value: Stamina
+    - rid: 5178594379753324594
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: HP
-    - rid: 5178594379753324598
+        m_Value: STA
+    - rid: 5178594379753324595
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Maximum Hit Points
+        m_Value: Energy to perform physical actions

@@ -10,43 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c4be981628d4fcd80364b5052329739, type: 3}
-  m_Name: Max_HP
+  m_Name: Max_Stam
   m_EditorClassIdentifier: 
   m_ID:
-    m_String: max_hp
+    m_String: max_stamina
   m_Data:
-    m_Base: 100
+    m_Base: 1000
     m_Formula: {fileID: 0}
   m_Info:
     m_Name:
       m_Property:
-        rid: 5178594379753324596
+        rid: 5178594815742836784
     m_Acronym:
       m_Property:
-        rid: 5178594379753324597
+        rid: 5178594815742836785
     m_Description:
       m_Property:
-        rid: 5178594379753324598
+        rid: 5178594815742836786
     m_Icon:
       m_Property:
-        rid: 3592961491000623143
-    m_Color: {r: 0.93333334, g: 0.3137255, b: 0.3254902, a: 1}
+        rid: 3592961491000623147
+    m_Color: {r: 0.93333334, g: 0.7490196, b: 0.3137255, a: 1}
   references:
     version: 2
     RefIds:
-    - rid: 3592961491000623143
+    - rid: 3592961491000623147
       type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Sprite: {fileID: 21300000, guid: 4fec0f548deab494aad2716ce3efc057, type: 3}
-    - rid: 5178594379753324596
+        m_Sprite: {fileID: 21300000, guid: 0347232ecf6764b51addbb14eb0c9604, type: 3}
+    - rid: 5178594815742836784
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Vitality
-    - rid: 5178594379753324597
+        m_Value: Max Stamina
+    - rid: 5178594815742836785
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: HP
-    - rid: 5178594379753324598
+        m_Value: Max MP
+    - rid: 5178594815742836786
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Maximum Hit Points
+        m_Value: Maximum Magic Points
