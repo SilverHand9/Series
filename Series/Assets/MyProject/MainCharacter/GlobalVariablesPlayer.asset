@@ -29,6 +29,7 @@ MonoBehaviour:
         m_Source:
         - rid: 4462654059045716738
         - rid: 4462654069692433170
+        - rid: 4462654093684899960
     - rid: 4462654059045716738
       type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
@@ -55,6 +56,21 @@ MonoBehaviour:
           m_String: LightTime
     - rid: 4462654069692433172
       type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 4462654093684899960
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 4462654093684899962
+        m_Name:
+          m_String: IsLighting
+    - rid: 4462654093684899962
+      type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
