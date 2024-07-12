@@ -316,7 +316,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 76.333336, y: -56.666668, z: 0}
+  position: {x: -119, y: 92.333336, z: 0}
   scale: {x: 0.43232757, y: 0.43232757, z: 1}
   references:
     version: 2
@@ -1153,8 +1153,8 @@ MonoBehaviour:
         computeOrder: 25
         position:
           serializedVersion: 2
-          x: 931.0001
-          y: 425.33334
+          x: 931.00006
+          y: 425.33347
           width: 110.666626
           height: 54
         expanded: 0
@@ -1391,8 +1391,8 @@ MonoBehaviour:
         computeOrder: 32
         position:
           serializedVersion: 2
-          x: 953.3335
-          y: 139.33331
+          x: 953.33344
+          y: 139.33333
           width: 110.66669
           height: 54
         expanded: 0
@@ -1404,6 +1404,7 @@ MonoBehaviour:
           - rid: 4462654069692433180
           - rid: 4462654059045716888
           - rid: 4462654069692432693
+          - rid: 4462654099006423040
         networkingSettings:
           rid: -2
     - rid: 4462654059045716882
@@ -1443,6 +1444,7 @@ MonoBehaviour:
         instructions:
           m_Instructions:
           - rid: 4462654059045716884
+          - rid: 4462654099006423043
         networkingSettings:
           rid: -2
     - rid: 4462654059045716884
@@ -2483,6 +2485,56 @@ MonoBehaviour:
             m_String: IsLighting
             m_ID: 525800256
     - rid: 4462654093684899976
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 4462654099006423040
+      type: {class: InstructionBooleanSetBool, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 4462654099006423041
+        m_From:
+          m_Property:
+            rid: 4462654099006423042
+    - rid: 4462654099006423041
+      type: {class: SetBoolGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: boolean
+          m_Variable: {fileID: 11400000, guid: 18c644df6e247c0439a2fb767c929677, type: 2}
+          m_Name:
+            m_String: IsLighting
+            m_ID: 525800256
+    - rid: 4462654099006423042
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4462654099006423043
+      type: {class: InstructionBooleanSetBool, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 4462654099006423044
+        m_From:
+          m_Property:
+            rid: 4462654099006423045
+    - rid: 4462654099006423044
+      type: {class: SetBoolGlobalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: boolean
+          m_Variable: {fileID: 11400000, guid: 18c644df6e247c0439a2fb767c929677, type: 2}
+          m_Name:
+            m_String: IsLighting
+            m_ID: 525800256
+    - rid: 4462654099006423045
       type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 0
