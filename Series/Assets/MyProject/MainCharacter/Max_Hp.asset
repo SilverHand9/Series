@@ -15,7 +15,7 @@ MonoBehaviour:
   m_ID:
     m_String: max_hp
   m_Data:
-    m_Base: 100
+    m_Base: 75
     m_Formula: {fileID: 0}
   m_Info:
     m_Name:

@@ -43,7 +43,7 @@ MonoBehaviour:
       m_IsEnabled: 0
       m_Value: 1800
     m_Mass:
-      m_IsEnabled: 0
+      m_IsEnabled: 1
       m_Value: 80
     m_Height:
       m_IsEnabled: 0
@@ -52,10 +52,10 @@ MonoBehaviour:
       m_IsEnabled: 0
       m_Value: 0.2
     m_GravityUpwards:
-      m_IsEnabled: 0
+      m_IsEnabled: 1
       m_Value: -9.81
     m_GravityDownwards:
-      m_IsEnabled: 0
+      m_IsEnabled: 1
       m_Value: -9.81
     m_TerminalVelocity:
       m_IsEnabled: 0
@@ -92,9 +92,21 @@ MonoBehaviour:
       m_Value: 1
   m_OnChange:
     m_Instructions:
-      m_Instructions: []
+      m_Instructions:
+      - rid: 4462654119620903146
   m_Controller: {fileID: -8876309588431305453}
   m_StateClip: {fileID: 7400000, guid: 092d5d119afcf1e42b38c1ad56507052, type: 3}
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 4462654119620903146
+      type: {class: InstructionCharacterStartRagdoll, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4462654119620903147
+    - rid: 4462654119620903147
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
