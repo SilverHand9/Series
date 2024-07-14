@@ -27,19 +27,21 @@ MonoBehaviour:
   m_Charge:
     m_State:
       m_StateType: 2
-      m_AnimationClip: {fileID: 0}
+      m_AnimationClip:
+        m_Property:
+          rid: 4462654148960059779
       m_RuntimeController: {fileID: 0}
       m_State: {fileID: 0}
       m_AvatarMask: {fileID: 0}
     m_Layer: 6
   m_Strike:
-    m_Direction: 3
+    m_Direction: 5
     m_Predictions: 1
     m_UseStrikers: 0
     m_Id:
       m_String: striker-id
   m_Trail:
-    m_IsActive: 1
+    m_IsActive: 0
     m_Length:
       m_IsEnabled: 0
       m_Value: 2
@@ -76,7 +78,7 @@ MonoBehaviour:
   m_Mask: {fileID: 0}
   m_Motion: 2
   m_SyncReaction: {fileID: 0}
-  m_Gravity: 1
+  m_Gravity: 0
   m_TransitionIn: 0.35
   m_TransitionOut: 0.25
   m_MeleeSequence:
@@ -314,3 +316,7 @@ MonoBehaviour:
     - rid: 4340017106317213828
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 4462654148960059779
+      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 0}

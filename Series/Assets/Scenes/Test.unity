@@ -227,6 +227,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.5, y: 0.22, z: 0}
+--- !u!1 &115960610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115960611}
+  - component: {fileID: 115960612}
+  m_Layer: 0
+  m_Name: Marker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115960611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115960610}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 6.96, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1370530774}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &115960612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115960610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b01c4c6ab8f24302816449b24f62efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StopDistance: 0.01
+  m_MarkerType:
+    rid: 4462654148092625126
+  m_UniqueID:
+    m_SerializedID:
+      m_String: 498a13d0-f146-405e-a247-bd10bbd659e4
+  references:
+    version: 2
+    RefIds:
+    - rid: 4462654148092625126
+      type: {class: MarkerTypeDirection, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
 --- !u!1 &601772671
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,12 +788,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462654148092624955]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometryNone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462654148092624959]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometryNone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462654148092625022]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometrySideScrollYZ
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462654148092625023]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometrySideScrollYZ
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462654148092625029]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometrySideScrollXY
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462654148092625030]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometrySideScrollXY
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462653968937910290].m_Jump.m_AirJumps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462653968937910290].m_GravityDownwards
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462653968937910291].m_Axonometry.m_Axonometry
+      value: 4462654148092625030
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462653968937910292].m_Axonometry.m_Axonometry
+      value: 4462654148092625029
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6804342155949614606, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 601772672}
+    - targetCorrespondingSourceObject: {fileID: 6804342155949614606, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 115960611}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
 --- !u!1 &2144879548
