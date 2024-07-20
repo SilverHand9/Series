@@ -4466,12 +4466,16 @@ PrefabInstance:
       value: GameCreator.Runtime.Core GameCreator.Runtime.Characters.AxonometrySideScrollXY
       objectReference: {fileID: 0}
     - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
+      propertyPath: managedReferences[4462653968937910290].m_GravityUpwards
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       propertyPath: managedReferences[4462653968937910290].m_Jump.m_AirJumps
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       propertyPath: managedReferences[4462653968937910290].m_GravityDownwards
-      value: -15
+      value: -32
       objectReference: {fileID: 0}
     - target: {fileID: 8915860188603003397, guid: bff6bf771de48094084a503a8eeb6ae1, type: 3}
       propertyPath: managedReferences[4462653968937910291].m_Axonometry.m_Axonometry

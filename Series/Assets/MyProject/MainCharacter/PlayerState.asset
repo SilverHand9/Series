@@ -74,6 +74,12 @@ MonoBehaviour:
   - rid: 4462654151572062431
   - rid: 4462654151572062438
   - rid: 4462654151572062440
+  - rid: 4462654283981783446
+  - rid: 4462654283981783452
+  - rid: 4462654283981783453
+  - rid: 4462654283981783502
+  - rid: 4462654283981783504
+  - rid: 4462654283981783505
   edges:
   - GUID: e3f8fb36-863e-4255-8404-5f2e930e1bcf
     owner: {fileID: 11400000}
@@ -355,6 +361,38 @@ MonoBehaviour:
     outputFieldName: success
     inputPortIdentifier: 
     outputPortIdentifier: 
+  - GUID: e3889a59-2403-4486-a5dc-30db7952fc1e
+    owner: {fileID: 11400000}
+    inputNodeGUID: 39278434-16f0-4726-8f31-ec3a4541877c
+    outputNodeGUID: 59c9bd88-07c1-4337-90c8-3bf3f1310e92
+    inputFieldName: input2
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: fe27301f-372f-4422-8612-677d933cca94
+    owner: {fileID: 11400000}
+    inputNodeGUID: b3ca5fde-ad47-420b-a38e-5422e3273b22
+    outputNodeGUID: 39278434-16f0-4726-8f31-ec3a4541877c
+    inputFieldName: input
+    outputFieldName: success
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c6d84189-195f-45ef-b61c-486d34605e28
+    owner: {fileID: 11400000}
+    inputNodeGUID: a861fe2d-b1b5-4d46-bb18-c5bf4bb184b5
+    outputNodeGUID: d09536d3-e5f5-42d8-b624-75b2fa427e0a
+    inputFieldName: input2
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 21de3e56-9a28-48d3-8301-6dad463f77ee
+    owner: {fileID: 11400000}
+    inputNodeGUID: 78efe350-f9fc-4cc3-a476-064aaf9cf103
+    outputNodeGUID: a861fe2d-b1b5-4d46-bb18-c5bf4bb184b5
+    inputFieldName: input
+    outputFieldName: success
+    inputPortIdentifier: 
+    outputPortIdentifier: 
   groups: []
   stackNodes: []
   networkNodes: []
@@ -373,8 +411,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 28.333334, y: 56.666668, z: 0}
-  scale: {x: 0.65751624, y: 0.65751624, z: 1}
+  position: {x: -649.3333, y: 165.33333, z: 0}
+  scale: {x: 0.57175326, y: 0.57175326, z: 1}
   references:
     version: 2
     RefIds:
@@ -517,7 +555,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1292
-          y: 329
+          y: 328.99997
           width: 133
           height: 39
         expanded: 0
@@ -2724,8 +2762,8 @@ MonoBehaviour:
         computeOrder: 47
         position:
           serializedVersion: 2
-          x: 1517.4857
-          y: 221.33334
+          x: 1517.3334
+          y: 221.33333
           width: 101
           height: 44.000015
         expanded: 0
@@ -2743,7 +2781,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1517.3334
-          y: 329
+          y: 328.99997
           width: 133
           height: 39
         expanded: 0
@@ -2791,8 +2829,8 @@ MonoBehaviour:
         computeOrder: 49
         position:
           serializedVersion: 2
-          x: 1507.6667
-          y: 425.33334
+          x: 1507.6665
+          y: 425.3333
           width: 110.66675
           height: 54
         expanded: 0
@@ -2878,7 +2916,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1425
-          y: -60.333313
+          y: -60.33331
           width: 101
           height: 44
         expanded: 0
@@ -2984,3 +3022,315 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 498a13d0-f146-405e-a247-bd10bbd659e4
+    - rid: 4462654283981783446
+      type: {class: TriggerNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 59c9bd88-07c1-4337-90c8-3bf3f1310e92
+        computeOrder: 53
+        position:
+          serializedVersion: 2
+          x: 1766
+          y: 221.33331
+          width: 101
+          height: 44.000015
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        enabledForExecution: 1
+        triggerEvent:
+          rid: 4462654283981783448
+    - rid: 4462654283981783448
+      type: {class: EventOnInputButton, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Button:
+          m_Input:
+            rid: 4462654283981783451
+        m_MinDistance:
+          m_MinDistance: 0
+          m_To:
+            m_Property:
+              rid: 4462654283981783450
+          m_Radius: 2
+          m_Offset: {x: 0, y: 0, z: 0}
+    - rid: 4462654283981783450
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783451
+      type: {class: InputButtonKeyboardPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Key: 17
+    - rid: 4462654283981783452
+      type: {class: ConditionsNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 39278434-16f0-4726-8f31-ec3a4541877c
+        computeOrder: 54
+        position:
+          serializedVersion: 2
+          x: 1765.9998
+          y: 329
+          width: 133
+          height: 39
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        enabledForExecution: 1
+        conditions:
+          m_Conditions:
+          - rid: 4462654283981783454
+    - rid: 4462654283981783453
+      type: {class: ActionsNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: b3ca5fde-ad47-420b-a38e-5422e3273b22
+        computeOrder: 55
+        position:
+          serializedVersion: 2
+          x: 1756.3334
+          y: 425.33334
+          width: 110.666626
+          height: 54
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        enabledForExecution: 1
+        instructions:
+          m_Instructions:
+          - rid: 4462654283981783458
+        networkingSettings:
+          rid: -2
+    - rid: 4462654283981783454
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4462654283981783455
+        m_Attribute:
+          m_Property:
+            rid: 4462654283981783456
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 5
+          m_CompareTo:
+            m_Property:
+              rid: 4462654283981783457
+    - rid: 4462654283981783455
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783456
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 71c2ce42a99fd9546b16e1da42b0c427, type: 2}
+    - rid: 4462654283981783457
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4462654283981783458
+      type: {class: InstructionCharacterNavigationDash, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4462654283981783459
+        m_Direction:
+          m_Property:
+            rid: 4462654283981783460
+        m_Velocity:
+          m_Property:
+            rid: 4462654283981783461
+        m_Duration:
+          m_Property:
+            rid: 4462654283981783462
+        m_Gravity: 1
+        m_WaitToFinish: 1
+        m_DashAnimation:
+          m_Mode: 1
+          m_AnimationForward: {fileID: 0}
+          m_AnimationBackward: {fileID: 0}
+          m_AnimationRight: {fileID: 0}
+          m_AnimationLeft: {fileID: 0}
+          m_Animation: {fileID: 7400000, guid: f404f950c22a16e419dfa28cdb76e243, type: 3}
+        m_AnimationSpeed: 1
+        m_TransitionIn: 0.1
+        m_TransitionOut: 0.2
+    - rid: 4462654283981783459
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783460
+      type: {class: GetDirectionCharactersMoving, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Character:
+          m_Property:
+            rid: 4462654283981783463
+    - rid: 4462654283981783461
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 10
+    - rid: 4462654283981783462
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.2
+    - rid: 4462654283981783463
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783502
+      type: {class: TriggerNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: d09536d3-e5f5-42d8-b624-75b2fa427e0a
+        computeOrder: 56
+        position:
+          serializedVersion: 2
+          x: 1715.6664
+          y: -82.33332
+          width: 101
+          height: 44
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        enabledForExecution: 1
+        triggerEvent:
+          rid: 4462654283981783510
+    - rid: 4462654283981783504
+      type: {class: ConditionsNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: a861fe2d-b1b5-4d46-bb18-c5bf4bb184b5
+        computeOrder: 57
+        position:
+          serializedVersion: 2
+          x: 1699.5
+          y: 29.666662
+          width: 133
+          height: 38.999996
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        enabledForExecution: 1
+        conditions:
+          m_Conditions:
+          - rid: 4462654283981783506
+    - rid: 4462654283981783505
+      type: {class: ActionsNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 78efe350-f9fc-4cc3-a476-064aaf9cf103
+        computeOrder: 58
+        position:
+          serializedVersion: 2
+          x: 1715.6666
+          y: 112.33333
+          width: 110.66675
+          height: 54
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        enabledForExecution: 1
+        instructions:
+          m_Instructions:
+          - rid: 4462654283981783514
+        networkingSettings:
+          rid: -2
+    - rid: 4462654283981783506
+      type: {class: ConditionCompareAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Sign: 1
+        m_Traits:
+          m_Property:
+            rid: 4462654283981783507
+        m_Attribute:
+          m_Property:
+            rid: 4462654283981783508
+        m_Value: 0
+        m_CompareTo:
+          m_Comparison: 5
+          m_CompareTo:
+            m_Property:
+              rid: 4462654283981783509
+    - rid: 4462654283981783507
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783508
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 71c2ce42a99fd9546b16e1da42b0c427, type: 2}
+    - rid: 4462654283981783509
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 4462654283981783510
+      type: {class: EventOnInputButton, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Button:
+          m_Input:
+            rid: 4462654283981783513
+        m_MinDistance:
+          m_MinDistance: 0
+          m_To:
+            m_Property:
+              rid: 4462654283981783512
+          m_Radius: 2
+          m_Offset: {x: 0, y: 0, z: 0}
+    - rid: 4462654283981783512
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783513
+      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Button: 5
+    - rid: 4462654283981783514
+      type: {class: InstructionCharacterNavigationDash, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 4462654283981783515
+        m_Direction:
+          m_Property:
+            rid: 4462654283981783516
+        m_Velocity:
+          m_Property:
+            rid: 4462654283981783517
+        m_Duration:
+          m_Property:
+            rid: 4462654283981783518
+        m_Gravity: 1
+        m_WaitToFinish: 1
+        m_DashAnimation:
+          m_Mode: 1
+          m_AnimationForward: {fileID: 0}
+          m_AnimationBackward: {fileID: 0}
+          m_AnimationRight: {fileID: 0}
+          m_AnimationLeft: {fileID: 0}
+          m_Animation: {fileID: 7400000, guid: f404f950c22a16e419dfa28cdb76e243, type: 3}
+        m_AnimationSpeed: 1
+        m_TransitionIn: 0.1
+        m_TransitionOut: 0.2
+    - rid: 4462654283981783515
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654283981783516
+      type: {class: GetDirectionCharactersMoving, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Character:
+          m_Property:
+            rid: 4462654283981783519
+    - rid: 4462654283981783517
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 10
+    - rid: 4462654283981783518
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.2
+    - rid: 4462654283981783519
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
