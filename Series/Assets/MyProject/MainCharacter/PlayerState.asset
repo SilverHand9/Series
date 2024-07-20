@@ -411,8 +411,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -649.3333, y: 165.33333, z: 0}
-  scale: {x: 0.57175326, y: 0.57175326, z: 1}
+  position: {x: 117.666664, y: -48.333332, z: 0}
+  scale: {x: 0.43232757, y: 0.43232757, z: 1}
   references:
     version: 2
     RefIds:
@@ -1901,8 +1901,8 @@ MonoBehaviour:
         computeOrder: 39
         position:
           serializedVersion: 2
-          x: -102.33332
-          y: 629.66656
+          x: -102.33331
+          y: 629.6667
           width: 133
           height: 39
         expanded: 0
@@ -1934,6 +1934,8 @@ MonoBehaviour:
           - rid: 4462654069692433027
           - rid: 4462654069692433303
           - rid: 4462654069692433306
+          - rid: 4462654285414662146
+          - rid: 4462654285414662144
         networkingSettings:
           rid: -2
     - rid: 4462654069692432933
@@ -3334,3 +3336,36 @@ MonoBehaviour:
     - rid: 4462654283981783519
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 4462654285414662144
+      type: {class: InstructionCommonSceneLoad, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Scene:
+          m_Property:
+            rid: 4462654285414662145
+        m_Mode: 0
+        m_Async: 0
+        m_SceneEntries:
+          m_Entries: []
+    - rid: 4462654285414662145
+      type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Scene:
+          m_Scene: {fileID: 102900000, guid: 1b00550d7c0576940858a34fcc49c7e2, type: 3}
+          m_SceneName: Test
+          m_SceneIndex: -1
+    - rid: 4462654285414662146
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 4462654285414662147
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 4462654285414662147
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
