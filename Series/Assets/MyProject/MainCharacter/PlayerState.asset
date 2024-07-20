@@ -3224,7 +3224,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1715.6666
-          y: 112.33333
+          y: 112.33336
           width: 110.66675
           height: 54
         expanded: 0
@@ -3326,11 +3326,11 @@ MonoBehaviour:
     - rid: 4462654283981783517
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 10
+        m_Value: 15
     - rid: 4462654283981783518
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 0.2
+        m_Value: 0.23
     - rid: 4462654283981783519
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
