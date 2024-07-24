@@ -328,7 +328,6 @@ MonoBehaviour:
         m_Instructions:
           m_Instructions:
             m_Instructions:
-            - rid: 4462654283981783646
             - rid: 4462654217404285037
     - rid: 4462654217404285036
       type: {class: InputPortBehaviorTreeDefault, ns: GameCreator.Runtime.Behavior, asm: GameCreator.Runtime.Behavior}
@@ -449,20 +448,6 @@ MonoBehaviour:
     - rid: 4462654217931457420
       type: {class: GetPositionCharactersPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 4462654283981783646
-      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Seconds:
-          m_Property:
-            rid: 4462654283981783647
-        m_Mode:
-          m_UpdateTime: 0
-    - rid: 4462654283981783647
-      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
     - rid: 4462654374246875949
       type: {class: InstructionCharacterNavigationMoveTo, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:

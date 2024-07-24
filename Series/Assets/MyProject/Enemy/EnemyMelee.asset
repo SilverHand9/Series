@@ -78,7 +78,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -3.6666667, y: 21.333334, z: 0}
+  position: {x: -94, y: -41, z: 0}
   scale: {x: 0.57175326, y: 0.57175326, z: 1}
   references:
     version: 2
