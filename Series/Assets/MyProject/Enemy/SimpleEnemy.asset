@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1aff28337d24cf7b76e581bc4334c37, type: 3}
+  m_Name: SimpleEnemy
+  m_EditorClassIdentifier: 
+  m_Class:
+    m_Property:
+      rid: 4462654373908185328
+  m_Description:
+    m_Property:
+      rid: 4462654373908185329
+  m_Sprite:
+    m_Property:
+      rid: 4462654373908185330
+  m_Color:
+    m_Property:
+      rid: 4462654373908185331
+  m_Attributes:
+    m_Attributes:
+    - rid: 4462654373908185332
+  m_Stats:
+    m_Stats:
+    - rid: 4462654373908185333
+  references:
+    version: 2
+    RefIds:
+    - rid: 4462654373908185328
+      type: {class: GetStringSelfName, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654373908185329
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: 
+    - rid: 4462654373908185330
+      type: {class: GetSpriteNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654373908185331
+      type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 4462654373908185332
+      type: {class: AttributeItem, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_IsHidden: 0
+        m_Attribute: {fileID: 11400000, guid: c68061ecb52257a4b8121c9de6eb4945, type: 2}
+        m_ChangeStartPercent:
+          m_IsEnabled: 0
+          m_Value: 1
+    - rid: 4462654373908185333
+      type: {class: StatItem, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_IsHidden: 0
+        m_Stat: {fileID: 11400000, guid: b4a1e6f107d28154c822d008b2966911, type: 2}
+        m_ChangeBase:
+          m_IsEnabled: 0
+          m_Value: 100
+        m_ChangeFormula:
+          m_IsEnabled: 0
+          m_Value: {fileID: 0}

@@ -71,9 +71,9 @@ MonoBehaviour:
     - rid: 7624061255711457400
       type: {class: StrikerCapsule, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Position: {x: 0.5, y: 0, z: 0}
+        m_Position: {x: 0.58, y: 0, z: 0}
         m_Height: 0.6
-        m_Radius: 0.25
+        m_Radius: 1
 --- !u!1 &5099940126912940064
 GameObject:
   m_ObjectHideFlags: 0

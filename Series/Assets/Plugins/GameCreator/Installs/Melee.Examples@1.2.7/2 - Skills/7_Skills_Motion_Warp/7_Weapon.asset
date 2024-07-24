@@ -43,9 +43,11 @@ MonoBehaviour:
   m_Shield: {fileID: 0}
   m_State:
     m_StateType: 2
-    m_AnimationClip: {fileID: 0}
+    m_AnimationClip:
+      m_Property:
+        rid: 4462654373908185890
     m_RuntimeController: {fileID: 0}
-    m_State: {fileID: 11400000, guid: d021119f05de5466c98f56d25155d759, type: 2}
+    m_State: {fileID: 11400000, guid: eb535783f9f0aee4ebb268cc8cfd3403, type: 2}
     m_AvatarMask: {fileID: 0}
   m_Layer:
     m_Property:
@@ -162,3 +164,7 @@ MonoBehaviour:
     - rid: 3592961694799495877
       type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 4462654373908185890
+      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {fileID: 0}

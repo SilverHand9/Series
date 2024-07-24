@@ -411,7 +411,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -217.33333, y: 94.666664, z: 0}
+  position: {x: 173, y: -151, z: 0}
   scale: {x: 0.49717674, y: 0.49717674, z: 1}
   references:
     version: 2
@@ -3378,7 +3378,7 @@ MonoBehaviour:
     - rid: 4462654285414662147
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 4
+        m_Value: 1
     - rid: 4462654352838099059
       type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:

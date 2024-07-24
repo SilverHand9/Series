@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed88b47b9f8014a8587d7712e17957cc, type: 3}
-  m_Name: EnemyBoom
+  m_Name: EnemyMelee
   m_EditorClassIdentifier: 
   m_SaveUniqueID:
     m_Save:
       m_Save: 0
     m_UniqueID:
       m_SerializedID:
-        m_String: 5f1bcf84-f5dd-4ea7-949f-38d955a2bb08
+        m_String: b26f0ea9-4691-46d1-87d6-f750c2ff3e67
   m_NameList:
     rid: 4462654217404284943
   nodes:
@@ -78,7 +78,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -70, y: -52, z: 0}
+  position: {x: -3.6666667, y: 21.333334, z: 0}
   scale: {x: 0.57175326, y: 0.57175326, z: 1}
   references:
     version: 2
@@ -145,7 +145,7 @@ MonoBehaviour:
     - rid: 4462654217404284955
       type: {class: GetWeaponMeleeInstance, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
-        m_Weapon: {fileID: 11400000, guid: 2d29315922bc2c540ab78a7992cd5d0b, type: 2}
+        m_Weapon: {fileID: 11400000, guid: b68be0edcce126b42a0bd4eb53139d77, type: 2}
     - rid: 4462654217404284956
       type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
@@ -331,7 +331,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 712.99994
-          y: 420
+          y: 419.99997
           width: 110.66669
           height: 54
         expanded: 0
