@@ -316,7 +316,7 @@ MonoBehaviour:
       data:
         m_Id:
           m_String: 45c894af-dfff-4c6e-9965-34af94843909
-        m_Position: {x: -150, y: 326}
+        m_Position: {x: -150, y: 325.11835}
         m_Ports:
           m_Inputs:
           - rid: 4462654217404285036
@@ -328,6 +328,7 @@ MonoBehaviour:
         m_Instructions:
           m_Instructions:
             m_Instructions:
+            - rid: 4462654378533716208
             - rid: 4462654217404285037
     - rid: 4462654217404285036
       type: {class: InputPortBehaviorTreeDefault, ns: GameCreator.Runtime.Behavior, asm: GameCreator.Runtime.Behavior}
@@ -489,3 +490,17 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 31b144ea-340a-41c0-abe9-fcf9407d3efe
+    - rid: 4462654378533716208
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 4462654378533716209
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 4462654378533716209
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0.5
