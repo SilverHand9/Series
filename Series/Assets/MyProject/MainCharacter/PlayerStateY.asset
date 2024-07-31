@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed88b47b9f8014a8587d7712e17957cc, type: 3}
-  m_Name: PlayerState
+  m_Name: PlayerStateY
   m_EditorClassIdentifier: 
   m_SaveUniqueID:
     m_Save:
       m_Save: 0
     m_UniqueID:
       m_SerializedID:
-        m_String: 4ede8941-926d-436f-a418-49a2a6143aff
+        m_String: 91b6ddf9-ff66-4d5b-8632-cea0306325e5
   m_NameList:
     rid: 4462653990378930178
   nodes:
@@ -411,7 +411,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 95, y: -24.666666, z: 0}
+  position: {x: -147.33333, y: 81.333336, z: 0}
   scale: {x: 0.43232757, y: 0.43232757, z: 1}
   references:
     version: 2
@@ -1248,8 +1248,8 @@ MonoBehaviour:
         computeOrder: 25
         position:
           serializedVersion: 2
-          x: 931.00006
-          y: 425.33347
+          x: 931.0001
+          y: 425.33334
           width: 110.666626
           height: 54
         expanded: 0
@@ -1260,8 +1260,6 @@ MonoBehaviour:
           m_Instructions:
           - rid: 4462654069692433186
           - rid: 4462654059045716742
-          - rid: 4462654352838099401
-          - rid: 4462654352838099405
           - rid: 4462654069692432689
           - rid: 4462654093684899956
         networkingSettings:
@@ -1391,8 +1389,6 @@ MonoBehaviour:
         instructions:
           m_Instructions:
           - rid: 4462654059045716851
-          - rid: 4462654352838099059
-          - rid: 4462654352838099409
           - rid: 4462654093684899974
         networkingSettings:
           rid: -2
@@ -1502,8 +1498,6 @@ MonoBehaviour:
           m_Instructions:
           - rid: 4462654069692433180
           - rid: 4462654059045716888
-          - rid: 4462654352838099421
-          - rid: 4462654352838099425
           - rid: 4462654069692432693
           - rid: 4462654099006423040
         networkingSettings:
@@ -1535,7 +1529,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1146.6666
-          y: 139.33327
+          y: 139.33336
           width: 110.66675
           height: 54
         expanded: 0
@@ -1545,8 +1539,6 @@ MonoBehaviour:
         instructions:
           m_Instructions:
           - rid: 4462654059045716884
-          - rid: 4462654352838099417
-          - rid: 4462654352838099413
           - rid: 4462654099006423043
         networkingSettings:
           rid: -2
@@ -1736,7 +1728,7 @@ MonoBehaviour:
     - rid: 4462654069692432692
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1
+        m_Value: 0.5
     - rid: 4462654069692432693
       type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
       data:
@@ -1763,7 +1755,7 @@ MonoBehaviour:
     - rid: 4462654069692432696
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 1
+        m_Value: 0.5
     - rid: 4462654069692432802
       type: {class: TriggerNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
       data:
@@ -2841,8 +2833,8 @@ MonoBehaviour:
         computeOrder: 49
         position:
           serializedVersion: 2
-          x: 1507.6665
-          y: 425.3333
+          x: 1507.6669
+          y: 425.33334
           width: 110.66675
           height: 54
         expanded: 0
@@ -3099,7 +3091,7 @@ MonoBehaviour:
         computeOrder: 55
         position:
           serializedVersion: 2
-          x: 1756.3334
+          x: 1756.3336
           y: 425.33334
           width: 110.666626
           height: 54
@@ -3235,8 +3227,8 @@ MonoBehaviour:
         computeOrder: 58
         position:
           serializedVersion: 2
-          x: 1715.6666
-          y: 112.33336
+          x: 1715.6669
+          y: 112.33334
           width: 110.66675
           height: 54
         expanded: 0
@@ -3379,37 +3371,6 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 1
-    - rid: 4462654352838099059
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099060
-        m_Active:
-          m_Property:
-            rid: 4462654352838099061
-    - rid: 4462654352838099060
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099062
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light1
-            m_ID: -1480419486
-    - rid: 4462654352838099061
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0
-    - rid: 4462654352838099062
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 4462654352838099393
       type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
@@ -3470,222 +3431,5 @@ MonoBehaviour:
       data:
         m_Value: 0
     - rid: 4462654352838099400
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099401
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099402
-        m_Active:
-          m_Property:
-            rid: 4462654352838099403
-    - rid: 4462654352838099402
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099404
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light1
-            m_ID: -1480419486
-    - rid: 4462654352838099403
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
-    - rid: 4462654352838099404
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099405
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099406
-        m_Active:
-          m_Property:
-            rid: 4462654352838099407
-    - rid: 4462654352838099406
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099408
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light2
-            m_ID: 1053542104
-    - rid: 4462654352838099407
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
-    - rid: 4462654352838099408
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099409
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099410
-        m_Active:
-          m_Property:
-            rid: 4462654352838099411
-    - rid: 4462654352838099410
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099412
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light2
-            m_ID: 1053542104
-    - rid: 4462654352838099411
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0
-    - rid: 4462654352838099412
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099413
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099414
-        m_Active:
-          m_Property:
-            rid: 4462654352838099415
-    - rid: 4462654352838099414
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099416
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light2
-            m_ID: 1053542104
-    - rid: 4462654352838099415
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0
-    - rid: 4462654352838099416
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099417
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099418
-        m_Active:
-          m_Property:
-            rid: 4462654352838099419
-    - rid: 4462654352838099418
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099420
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light1
-            m_ID: -1480419486
-    - rid: 4462654352838099419
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0
-    - rid: 4462654352838099420
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099421
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099422
-        m_Active:
-          m_Property:
-            rid: 4462654352838099423
-    - rid: 4462654352838099422
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099424
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light1
-            m_ID: -1480419486
-    - rid: 4462654352838099423
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
-    - rid: 4462654352838099424
-      type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 4462654352838099425
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_GameObject:
-          m_Property:
-            rid: 4462654352838099426
-        m_Active:
-          m_Property:
-            rid: 4462654352838099427
-    - rid: 4462654352838099426
-      type: {class: GetGameObjectStateMachineRunner, ns: NinjutsuGames.StateMachine.Runtime.Variables, asm: NinjutsuGames.StateMachine.Runtime}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Runner:
-            m_Property:
-              rid: 4462654352838099428
-          m_Variable: {fileID: 11400000}
-          m_Name:
-            m_String: Light2
-            m_ID: 1053542104
-    - rid: 4462654352838099427
-      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 1
-    - rid: 4462654352838099428
       type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
