@@ -411,7 +411,7 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -147.33333, y: 81.333336, z: 0}
+  position: {x: 206, y: -104, z: 0}
   scale: {x: 0.43232757, y: 0.43232757, z: 1}
   references:
     version: 2
@@ -1323,7 +1323,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1124.3334
-          y: 243.33334
+          y: 243.33337
           width: 101
           height: 44
         expanded: 0
@@ -1378,8 +1378,8 @@ MonoBehaviour:
         computeOrder: 28
         position:
           serializedVersion: 2
-          x: 1124.3336
-          y: 425.33334
+          x: 1124.3334
+          y: 425.3334
           width: 110.666626
           height: 54
         expanded: 0
@@ -1431,9 +1431,9 @@ MonoBehaviour:
         computeOrder: 29
         position:
           serializedVersion: 2
-          x: 962.9999
-          y: -60.333355
-          width: 101
+          x: 963.0001
+          y: -60.333324
+          width: 96.666626
           height: 44
         expanded: 0
         debug: 0
@@ -1450,7 +1450,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1146.6666
-          y: -60.333332
+          y: -60.33335
           width: 101
           height: 44
         expanded: 0
@@ -1529,7 +1529,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 1146.6666
-          y: 139.33336
+          y: 139.33331
           width: 110.66675
           height: 54
         expanded: 0
@@ -2189,8 +2189,8 @@ MonoBehaviour:
         computeOrder: 42
         position:
           serializedVersion: 2
-          x: 72.33333
-          y: 629.66675
+          x: 82.00003
+          y: 590.6667
           width: 133
           height: 39
         expanded: 0
@@ -2221,6 +2221,7 @@ MonoBehaviour:
         instructions:
           m_Instructions:
           - rid: 4462654069692433174
+          - rid: 5424658375752024205
         networkingSettings:
           rid: -2
     - rid: 4462654069692433163
@@ -2346,8 +2347,8 @@ MonoBehaviour:
         computeOrder: 41
         position:
           serializedVersion: 2
-          x: 82.000015
-          y: 535.66675
+          x: 82.00003
+          y: 491.66678
           width: 101
           height: 44
         expanded: 0
@@ -2833,8 +2834,8 @@ MonoBehaviour:
         computeOrder: 49
         position:
           serializedVersion: 2
-          x: 1507.6669
-          y: 425.33334
+          x: 1507.6666
+          y: 425.3334
           width: 110.66675
           height: 54
         expanded: 0
@@ -3432,4 +3433,43 @@ MonoBehaviour:
         m_Value: 0
     - rid: 4462654352838099400
       type: {class: GetGameObjectTarget, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 5424658375752024205
+      type: {class: InstructionStatsChangeAttribute, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 5424658375752024206
+        m_Attribute:
+          m_Property:
+            rid: 5424658375752024207
+        m_Change:
+          m_Operation: 1
+          m_Value:
+            m_Property:
+              rid: 5424658375752024208
+    - rid: 5424658375752024206
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 5424658375752024207
+      type: {class: GetAttributeInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Attribute: {fileID: 11400000, guid: 71c2ce42a99fd9546b16e1da42b0c427, type: 2}
+    - rid: 5424658375752024208
+      type: {class: GetDecimalMathMultiply, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Number1:
+          m_Property:
+            rid: 5424658375752024209
+        m_Number2:
+          m_Property:
+            rid: 5424658375752024210
+    - rid: 5424658375752024209
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 5
+    - rid: 5424658375752024210
+      type: {class: GetDecimalTimeDeltaTime, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
