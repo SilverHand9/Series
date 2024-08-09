@@ -421,8 +421,7 @@ MonoBehaviour:
     - rid: 4462653990378930178
       type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
-        m_Source:
-        - rid: 4462654059045716556
+        m_Source: []
     - rid: 4462653990378930179
       type: {class: StartNode, ns: NinjutsuGames.StateMachine.Runtime, asm: NinjutsuGames.StateMachine.Runtime}
       data:
@@ -1266,21 +1265,6 @@ MonoBehaviour:
           - rid: 4462654093684899956
         networkingSettings:
           rid: -2
-    - rid: 4462654059045716556
-      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Value:
-          rid: 4462654059045716558
-        m_Name:
-          m_String: Light
-    - rid: 4462654059045716558
-      type: {class: ValueGameObject, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Value: {fileID: 0}
     - rid: 4462654059045716742
       type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
